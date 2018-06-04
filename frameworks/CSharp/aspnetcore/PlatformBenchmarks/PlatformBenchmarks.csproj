@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="RedHatX.AspNetCore.Server.Kestrel.Transport.Linux" Version="2.1.0-180602-553" />
+    <PackageReference Include="RedHatX.AspNetCore.Server.Kestrel.Transport.Linux" Version="2.1.0-180604-556" />
     <PackageReference Include="Utf8Json" Version="1.3.7" />
     <PackageReference Include="Npgsql" Version="4.0.0" />
     <PackageReference Include="MySqlConnector" Version="0.40.4" />
