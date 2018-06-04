@@ -67,7 +67,7 @@ namespace PlatformBenchmarks
 
             if (args?.Any(s => s == "--LinuxTransport") ?? false)
             {
-                host.UseLinuxTransport(_ => _.ThreadCount = Math.Min(Environment.ProcessorCount, 16));
+                host.UseLinuxTransport(_ => _.ThreadCount = Math.Min((1 + Environment.ProcessorCount) / 2, 16));
             }
 
             return host.Build();
